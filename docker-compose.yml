@@ -1,0 +1,9 @@
+version: '3'
+services:
+  patient_management_system_front_end:
+    build:
+      context: .
+      dockerfile: Dockerfile  # Path to your Dockerfile
+    container_name: patient_management_system_front_end
+    ports:
+      - "8095:96"
